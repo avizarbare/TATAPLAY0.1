@@ -101,7 +101,7 @@ const getAllChans = async () => {
     return obj;
   }
 
-  const generateM3u = async (ud) => {
+const generateM3u = async (ud) => {
     let errs = [];
     // let userEnt = theUser.entitlements.map(x => x.pkgId);
     let ent = ud.ent;
